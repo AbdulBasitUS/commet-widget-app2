@@ -1,0 +1,16 @@
+.comment {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+}
+
+.comment .comment-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment .comment-wrapper .timestamp {
+    font-size: 10px;
+    color: gray;
+}
